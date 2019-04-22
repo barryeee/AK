@@ -9,9 +9,9 @@ void create() {
     SetShort("guard room");
     SetLong("a dingy-looking room where the on duty guard can sit and keep an eye on the prisoners");
     SetInventory(([
-        "/domains/AK/weap/sword" : 4,
+        "/domains/AK/weap/sword" : 1,
         "/domains/AK/obj/barrel" : 1,
-        "/domains/AK/npc/orc" : 1,
+        "/domains/AK/npc/orc_guard" : 1,
       ]));
     SetExits( ([
         "west" : "/domains/AK/room/start",

@@ -8,8 +8,12 @@ void create() {
     SetAmbientLight(30);
     SetShort("The Pit of Despair");
     SetLong("a small, square stone room with no windows and only one door. A single torch provides meager illumination. However, there is not much to see.");
+    SetProperties(([
+        "location" : "(5000,5000,1)",
+      ]));
     SetInventory(([
         "/domains/AK/obj/notice" : 1,
+        "/domains/AK/obj/skeleton_key" : 1,
         "/domains/AK/obj/gold_rock" : 4,
       ]));
     SetExits( ([

@@ -12,9 +12,8 @@ void create() {
         ({ "wall", "walls", "stone wall", "stone walls" }) : "These are slimy stone walls made of granite blocks. They are covered in algae.",
       ]));
     SetExits( ([
-        "east" : "/domains/AK/room/hall5",
-        "west" : "/domains/AK/room/guard_room",
-        "north" : "/domains/AK/room/hall2",
+        "east" : "/domains/AK/room/hall4",
+        "west" : "/domains/AK/room/hall2",
       ]) );
 
     SetInventory(([

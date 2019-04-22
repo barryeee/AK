@@ -6,15 +6,13 @@ inherit LIB_ROOM;
 void create() {
     room::create();
     SetAmbientLight(20);
-    SetShort("hallway");
+    SetShort("copy of hallway.c");
     SetLong("a non-descript hallway built of granite blocks.");
     SetItems(([
         ({ "wall", "walls", "stone wall", "stone walls" }) : "These are slimy stone walls made of granite blocks. They are covered in algae.",
       ]));
     SetExits( ([
-        "east" : "/domains/AK/room/hall5",
-        "west" : "/domains/AK/room/guard_room",
-        "north" : "/domains/AK/room/hall2",
+        "south" : "/domains/AK/room/hallway.c",
       ]) );
 
     SetInventory(([
