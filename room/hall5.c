@@ -13,7 +13,7 @@ void create() {
       ]));
     SetExits( ([
         "west" : "/domains/AK/room/hallway",
-        "east" : "/domains/AK/room/hall4",
+        //"east" : "/domains/AK/room/hall4",
         "south" : "/domains/AK/room/hall6",
       ]) );
 
