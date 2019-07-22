@@ -15,7 +15,7 @@ static void create() {
     SetMaxHealthPoints(100);
     SetEncounter(0);
     SetInventory(([
-        "/domains/default/weap/axe":"wield axe",
+        "/domains/AK/weap/axe":"wield axe",
       ]) );
     SetGuard("east", "The guard blocks your travel in that direction.");
 

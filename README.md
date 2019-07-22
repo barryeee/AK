@@ -1,2 +1,2 @@
 # AK
-An RPG text adventrue game based running on FluffOS and Dead Souls mudlib
+An RPG text adventure game  running on FluffOS and and derived from Dead Souls mudlib

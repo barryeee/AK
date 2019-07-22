@@ -11,7 +11,7 @@ void create() {
     SetInventory(([
         "/domains/AK/weap/sword" : 1,
         "/domains/AK/obj/barrel" : 1,
-        "/domains/AK/npc/orc_guard" : 1,
+        "/domains/AK/npc/orc1" : 1,
       ]));
     SetExits( ([
         "west" : "/domains/AK/room/start",
