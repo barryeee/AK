@@ -22,7 +22,7 @@ static void create() {
     SetLevel(1);
     SetRace("orc");
     SetClass("fighter");
-    SetSkill("projectile attack", 20);
+    SetSkill("projectile attack", 10);
     SetSkill("projectile defense", 10);
     SetGender("male");
     SetEncounter(  (: CheckOrc :) );

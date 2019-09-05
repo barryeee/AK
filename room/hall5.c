@@ -18,6 +18,7 @@ void create() {
       ]) );
 
     SetInventory(([
+		"/domains/cave/armor/leather_armor" : 1,
       ]));
 
     SetClimate("indoors");

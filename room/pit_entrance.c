@@ -12,7 +12,8 @@ void create() {
     SetLong("a sparsely furnished  room where the guard keeps track of high priority prisoners. ");
     SetInventory(([
      
-        "/domains/AK/npc/orc2" : 1,
+        "/domains/AK/npc/orc1" : 1,
+		"/domains/AK/npc/gargoyle" : 1,
 		"/domains/AK/obj/bench" : 1,
       ]));
     SetExits( ([
