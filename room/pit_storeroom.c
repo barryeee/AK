@@ -8,12 +8,13 @@ inherit LIB_ROOM;
 void create() {
     room::create();
     SetAmbientLight(30);
-    SetShort("Entrance to the Pit");
-    SetLong("a sparsely furnished  room where the guard keeps track of high priority prisoners. ");
+    SetShort("Store Room");
+    SetLong("A small room where the quards can store extra food, armor, and weapons. ");
     SetInventory(([     
-        "/domains/AK/npc/orc1" : 1,
-		"/domains/AK/npc/gargoyle" : 1,
-		"/domains/AK/obj/bench" : 1,
+        "/domains/AK/obj/flask" : 4,
+		"/domains/AK/weap/board" : 2,
+		"/domains/AK/weap/paring_knife" : 2,
+		"/domains/AK/meals/ham_sand" : 4,
       ]));
     
 	SetExits( ([
