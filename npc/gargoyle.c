@@ -14,6 +14,8 @@ static void create() {
     SetMelee(1);
     SetRace("gargoyle");
     SetGender("male");
+	
+	SetGuard("north", "The gargoyle blocks your way. It is licking its lips.");
 }
 void init(){
     ::init();

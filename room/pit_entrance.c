@@ -15,11 +15,11 @@ void create() {
 		"/domains/AK/npc/gargoyle" : 1,
 		"/domains/AK/obj/bench" : 1,
       ]));
-    
+     
 	SetExits( ([
         "west" : "/domains/AK/room/hall4",
 		"east" : "/domains/Ak/room/pit_stairs",
-
+		"north" : "/domains/AK/room/pit_storeroom",
 		]) );
 
 
