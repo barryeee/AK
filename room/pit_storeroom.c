@@ -15,6 +15,8 @@ void create() {
 		"/domains/AK/weap/board" : 2,
 		"/domains/AK/weap/paring_knife" : 2,
 		"/domains/AK/meals/ham_sand" : 4,
+		"/domains/AK/meals/potion_healing" : 1,
+		
       ]));
     
 	SetExits( ([
