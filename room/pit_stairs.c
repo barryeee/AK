@@ -16,7 +16,7 @@ void create() {
 
     SetExits(([
         "west" : "/domains/AK/room/pit_entrance",
-      	
+		"east" : "/domains/AK/room/jail",      	
 		]));
 	
 	
