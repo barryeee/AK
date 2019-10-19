@@ -12,6 +12,10 @@ static void create() {
     SetLong("A generic Wiz Hall.");
     SetProperty("no attack", 1);
     SetProperty("nopeer",1);
+	SetInventory(([     
+        "/domains/AK/obj/chest" : 1,
+      ]));
+     
 }
 
 int CanReceive(object ob) {

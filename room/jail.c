@@ -19,7 +19,7 @@ void create() {
      
 	SetExits( ([
         "west" : "/domains/AK/room/townhall",
-		"east" : "/domains/Ak/room/pit_stairs",
+		"east" : "/domains/Ak/room/jail_stairs",
 		"southeast" : "/domains/AK/room/jail1",
 		"south" :   "/domains/AK/room/jail2",
 		"southwest" : "/domains/AK/room/jail3",
