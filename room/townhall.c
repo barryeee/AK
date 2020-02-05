@@ -16,6 +16,7 @@ void create() {
       ]));
 
     SetInventory(([
+	 "/domains/AK/obj/counter" : 1,
       ]));
 
     SetClimate("indoors");

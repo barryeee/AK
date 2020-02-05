@@ -6,7 +6,7 @@ inherit LIB_ROOM;
 
 
 void create() {
-    room::create();
+    room::create(); 
     SetAmbientLight(30);
     SetShort("Store Room");
     SetLong("A small room where the quards store extra food, armor, and weapons. ");
